@@ -1,1 +1,1 @@
-# MintPass smart contract
+# MintGenesisNFT smart contract
