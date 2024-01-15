@@ -39,7 +39,9 @@ contract MintGenesisNFT is
     error TokenNotMinted(uint256 tokenId);
     error UnauthorizedMinter(address minter);
 
-    constructor() {}
+    constructor() {
+        _disableInitializers();
+    }
 
     function initialize(
         address _address
